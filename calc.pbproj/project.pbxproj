@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		2E50A2C509BCBBF5008D2C62 = {
+			buildPhases = (
+				2E50A2C809BCBBF5008D2C62,
+				2E50A2CC09BCBBF5008D2C62,
+				2E50A2CF09BCBBF5008D2C62,
+				2E50A2D109BCBBF5008D2C62,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = calc.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Calculator;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			comments = "A powerful calculator for Mac OS X";
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = calc;
+			productName = calc;
+			productReference = 2E50A2D409BCBBF5008D2C62;
+			productType = "com.apple.product-type.application";
+		};
+		2E50A2C809BCBBF5008D2C62 = {
+			buildActionMask = 2147483647;
+			files = (
+				2E50A2C909BCBBF5008D2C62,
+				2E50A2CA09BCBBF5008D2C62,
+				2E50A2CB09BCBBF5008D2C62,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E50A2C909BCBBF5008D2C62 = {
+			fileRef = F502664301AFF5AA01A80006;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2E50A2CA09BCBBF5008D2C62 = {
+			fileRef = F527392801B2C40F01A80006;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2E50A2CB09BCBBF5008D2C62 = {
+			fileRef = F5B4FEF901C00B0101A80006;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2E50A2CC09BCBBF5008D2C62 = {
+			buildActionMask = 2147483647;
+			files = (
+				2E50A2CD09BCBBF5008D2C62,
+				2E50A2CE09BCBBF5008D2C62,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E50A2CD09BCBBF5008D2C62 = {
+			fileRef = F502664701AFF61801A80006;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2E50A2CE09BCBBF5008D2C62 = {
+			fileRef = F529E74501AFFDCE01A80006;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2E50A2CF09BCBBF5008D2C62 = {
+			buildActionMask = 2147483647;
+			files = (
+				2E50A2D009BCBBF5008D2C62,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E50A2D009BCBBF5008D2C62 = {
+			fileRef = F529E74701AFFE4201A80006;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2E50A2D109BCBBF5008D2C62 = {
+			buildActionMask = 2147483647;
+			files = (
+				2E50A2D209BCBBF5008D2C62,
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E50A2D209BCBBF5008D2C62 = {
+			fileRef = F5D487980807222601A80006;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2E50A2D309BCBBF5008D2C62 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = calc.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2E50A2D409BCBBF5008D2C62 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = Calculator.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//2E0
+//2E1
+//2E2
+//2E3
+//2E4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F502663F01AFF09D01A80006 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				F502664101AFF09D01A80006,
+				F502664201AFF09D01A80006,
+			);
+			hasScannedForEncodings = 0;
+			isa = PBXProject;
+			mainGroup = F502664001AFF09D01A80006;
+			productRefGroup = F502664501AFF61801A80006;
+			projectDirPath = "";
+			targets = (
+				2E50A2C509BCBBF5008D2C62,
+			);
+		};
+		F502664001AFF09D01A80006 = {
+			children = (
+				F502665201AFF74801A80006,
+				F502665301AFF74801A80006,
+				F502665801AFF78B01A80006,
+				F529E74901B0045401A80006,
+				F502664501AFF61801A80006,
+				F5554F4C01B3074C01A80006,
+				2E50A2D309BCBBF5008D2C62,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502664101AFF09D01A80006 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				PROFILING_CODE = YES;
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		F502664201AFF09D01A80006 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUGGING_SYMBOLS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+				PROFILING_CODE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		F502664301AFF5AA01A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = calc.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502664501AFF61801A80006 = {
+			children = (
+				2E50A2D409BCBBF5008D2C62,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502664701AFF61801A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = calcmac.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665001AFF69301A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = buttons.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665201AFF74801A80006 = {
+			children = (
+				F529E74501AFFDCE01A80006,
+				F502664701AFF61801A80006,
+				F502665A01AFF96201A80006,
+				F502665B01AFF96201A80006,
+				F502665E01AFF9DA01A80006,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665301AFF74801A80006 = {
+			children = (
+				F502665901AFF96201A80006,
+				F502665001AFF69301A80006,
+				F502665C01AFF9AF01A80006,
+				F502665401AFF74801A80006,
+			);
+			isa = PBXGroup;
+			name = headers;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665401AFF74801A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.h;
+			path = CALCULAT.H;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665801AFF78B01A80006 = {
+			children = (
+				F527392801B2C40F01A80006,
+				F502664301AFF5AA01A80006,
+				F5B4FEF901C00B0101A80006,
+				F5D487980807222601A80006,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665901AFF96201A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.h;
+			path = CALC.H;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665A01AFF96201A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CALCGEM.C;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665B01AFF96201A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CALCWIN.C;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665C01AFF9AF01A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.h;
+			path = MENU.H;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F502665E01AFF9DA01A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = PCGEM.C;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F527392801B2C40F01A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = calc.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F529E74501AFFDCE01A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = calculat.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F529E74701AFFE4201A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F529E74901B0045401A80006 = {
+			children = (
+				F529E74701AFFE4201A80006,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5554F4C01B3074C01A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README.TXT;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5B4FEF901C00B0101A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = "Calculator Help";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5D487980807222601A80006 = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.rsrc;
+			path = Logo.rsrc;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = F502663F01AFF09D01A80006;
+}

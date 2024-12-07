@@ -1,0 +1,14 @@
+calc881.prg
+.C [-8 -2]
+
+=
+tcstart.o
+calcgem.c (calc.h, buttons.h)
+calculat.c (buttons.h)
+
+tcgaklib.lib
+tcgemlib.lib
+tctoslib.lib
+
+tc881lib.lib
+tcstdlib.lib

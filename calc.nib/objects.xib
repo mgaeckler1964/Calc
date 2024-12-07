@@ -1,0 +1,2724 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <string name="targetFramework">IBCarbonFramework</string>
+  <object name="rootObject" class="NSCustomObject" id="1">
+    <string name="customClass">NSApplication</string>
+  </object>
+  <array count="311" name="allObjects">
+    <object class="IBCarbonWindow" id="180">
+      <string name="windowRect">81 179 382 545 </string>
+      <string name="title">Small Panel</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="181">
+        <string name="bounds">0 0 301 366 </string>
+        <array count="35" name="subviews">
+          <object class="IBCarbonGroupBox" id="182">
+            <string name="bounds">27 20 81 346 </string>
+            <array count="2" name="subviews">
+              <object class="IBCarbonStaticText" id="183">
+                <string name="bounds">55 31 71 289 </string>
+                <ostype name="controlSignature">CALC</ostype>
+                <int name="controlID">34</int>
+                <string name="title">----Free Version----</string>
+              </object>
+              <object class="IBCarbonStaticText" id="187">
+                <string name="bounds">55 297 71 338 </string>
+                <ostype name="controlSignature">CALC</ostype>
+                <int name="controlID">35</int>
+                <string name="title">Exp</string>
+              </object>
+            </array>
+            <string name="title">Small Panel</string>
+          </object>
+          <object class="IBCarbonStaticText" id="185">
+            <string name="bounds">20 126 36 141 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">39</int>
+            <string name="title">M</string>
+          </object>
+          <object class="IBCarbonStaticText" id="186">
+            <string name="bounds">20 149 36 164 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">1</int>
+            <string name="title">K</string>
+          </object>
+          <object class="IBCarbonButton" id="188">
+            <string name="bounds">101 300 121 346 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <string name="title">X/Y</string>
+          </object>
+          <object class="IBCarbonButton" id="189">
+            <string name="bounds">101 242 121 288 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">61</int>
+            <string name="title">Fix</string>
+            <ostype name="command">61  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="190">
+            <string name="bounds">101 188 121 234 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">55</int>
+            <string name="title">Rnd</string>
+            <ostype name="command">55  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="191">
+            <string name="bounds">133 242 153 346 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">74</int>
+            <string name="title">AC</string>
+            <ostype name="command">74  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="192">
+            <string name="bounds">133 188 153 234 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">68</int>
+            <string name="title">C</string>
+            <ostype name="command">68  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="193">
+            <string name="bounds">133 132 153 178 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">62</int>
+            <string name="title">)]</string>
+            <ostype name="command">62  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="194">
+            <string name="bounds">133 76 153 122 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">56</int>
+            <string name="title">[(</string>
+            <ostype name="command">56  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="195">
+            <string name="bounds">133 20 153 66 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">8</int>
+            <string name="title">Min</string>
+            <ostype name="command">8   </ostype>
+          </object>
+          <object class="IBCarbonButton" id="196">
+            <string name="bounds">165 20 185 66 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">14</int>
+            <string name="title">MR</string>
+            <ostype name="command">14  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="197">
+            <string name="bounds">197 20 217 66 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">20</int>
+            <string name="title">M+</string>
+            <ostype name="command">20  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="198">
+            <string name="bounds">229 20 249 66 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">26</int>
+            <string name="title">M-</string>
+            <ostype name="command">26  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="199">
+            <string name="bounds">261 20 281 66 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">32</int>
+            <string name="title">X/M</string>
+            <ostype name="command">32  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="200">
+            <string name="bounds">165 76 185 122 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">57</int>
+            <string name="title">7</string>
+            <ostype name="command">57  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="201">
+            <string name="bounds">261 76 281 122 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">60</int>
+            <string name="title">0</string>
+            <ostype name="command">60  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="202">
+            <string name="bounds">197 76 217 122 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">58</int>
+            <string name="title">4</string>
+            <ostype name="command">58  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="203">
+            <string name="bounds">229 76 249 122 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">59</int>
+            <string name="title">1</string>
+            <ostype name="command">59  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="204">
+            <string name="bounds">165 132 185 178 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">63</int>
+            <string name="title">8</string>
+            <ostype name="command">63  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="205">
+            <string name="bounds">261 132 281 178 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">66</int>
+            <string name="title">.</string>
+            <ostype name="command">66  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="206">
+            <string name="bounds">197 132 217 178 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">64</int>
+            <string name="title">5</string>
+            <ostype name="command">64  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="207">
+            <string name="bounds">229 132 249 178 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">65</int>
+            <string name="title">2</string>
+            <ostype name="command">65  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="208">
+            <string name="bounds">197 188 217 234 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">70</int>
+            <string name="title">6</string>
+            <ostype name="command">70  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="209">
+            <string name="bounds">229 188 249 234 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">71</int>
+            <string name="title">3</string>
+            <ostype name="command">71  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="210">
+            <string name="bounds">165 188 185 234 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">69</int>
+            <string name="title">9</string>
+            <ostype name="command">69  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="211">
+            <string name="bounds">261 188 281 234 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">72</int>
+            <string name="title">Exp</string>
+            <ostype name="command">72  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="212">
+            <string name="bounds">229 244 249 290 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">77</int>
+            <string name="title">+</string>
+            <ostype name="command">77  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="213">
+            <string name="bounds">165 244 185 290 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">75</int>
+            <string name="title">pow</string>
+            <ostype name="command">75  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="214">
+            <string name="bounds">261 244 281 290 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">78</int>
+            <string name="title">±</string>
+            <ostype name="command">78  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="215">
+            <string name="bounds">197 244 217 290 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">76</int>
+            <string name="title">*</string>
+            <ostype name="command">76  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="216">
+            <string name="bounds">165 300 185 346 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">80</int>
+            <string name="title">√</string>
+            <ostype name="command">80  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="217">
+            <string name="bounds">261 300 281 346 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">88</int>
+            <string name="title">=</string>
+            <ostype name="command">88  </ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonButton" id="218">
+            <string name="bounds">229 300 249 346 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">82</int>
+            <string name="title">-</string>
+            <ostype name="command">82  </ostype>
+          </object>
+          <object class="IBCarbonButton" id="219">
+            <string name="bounds">197 300 217 346 </string>
+            <ostype name="controlSignature">CALC</ostype>
+            <int name="controlID">81</int>
+            <string name="title">/</string>
+            <ostype name="command">81  </ostype>
+          </object>
+        </array>
+      </object>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <int name="themeBrush">1</int>
+    </object>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="183"/>
+    <reference idRef="185"/>
+    <reference idRef="186"/>
+    <reference idRef="187"/>
+    <reference idRef="188"/>
+    <reference idRef="189"/>
+    <reference idRef="190"/>
+    <reference idRef="191"/>
+    <reference idRef="192"/>
+    <reference idRef="193"/>
+    <reference idRef="194"/>
+    <reference idRef="195"/>
+    <reference idRef="196"/>
+    <reference idRef="197"/>
+    <reference idRef="198"/>
+    <reference idRef="199"/>
+    <reference idRef="200"/>
+    <reference idRef="201"/>
+    <reference idRef="202"/>
+    <reference idRef="203"/>
+    <reference idRef="204"/>
+    <reference idRef="205"/>
+    <reference idRef="206"/>
+    <reference idRef="207"/>
+    <reference idRef="208"/>
+    <reference idRef="209"/>
+    <reference idRef="210"/>
+    <reference idRef="211"/>
+    <reference idRef="212"/>
+    <reference idRef="213"/>
+    <reference idRef="214"/>
+    <reference idRef="215"/>
+    <reference idRef="216"/>
+    <reference idRef="217"/>
+    <reference idRef="218"/>
+    <reference idRef="219"/>
+    <object class="IBCarbonMenu" id="236">
+      <string name="title">bloed</string>
+      <array count="2" name="items">
+        <object class="IBCarbonMenuItem" id="252">
+          <string name="title">About Calculator...</string>
+          <string name="keyEquivalent">a</string>
+          <ostype name="command">abou</ostype>
+        </object>
+        <object class="IBCarbonMenuItem" id="239">
+          <boolean name="separator">TRUE</boolean>
+        </object>
+      </array>
+      <string name="name">_NSAppleMenu</string>
+    </object>
+    <reference idRef="239"/>
+    <object class="IBCarbonMenuItem" id="251">
+      <string name="title">bloed</string>
+      <reference name="submenu" idRef="236"/>
+    </object>
+    <reference idRef="252"/>
+    <object class="IBCarbonMenu" id="255">
+      <string name="title">calc</string>
+      <array count="4" name="items">
+        <reference idRef="251"/>
+        <object class="IBCarbonMenuItem" id="261">
+          <string name="title">Edit</string>
+          <object name="submenu" class="IBCarbonMenu" id="268">
+            <string name="title">Edit</string>
+            <int name="menuID">1</int>
+            <array count="2" name="items">
+              <object class="IBCarbonMenuItem" id="263">
+                <string name="title">Copy</string>
+                <string name="keyEquivalent">c</string>
+                <ostype name="command">copy</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="265">
+                <string name="title">Paste</string>
+                <string name="keyEquivalent">v</string>
+                <ostype name="command">past</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="278">
+          <string name="title">Panels</string>
+          <object name="submenu" class="IBCarbonMenu" id="279">
+            <string name="title">Panels</string>
+            <int name="menuID">2</int>
+            <array count="4" name="items">
+              <object class="IBCarbonMenuItem" id="281">
+                <string name="title">Large Panel</string>
+                <string name="keyEquivalent">l</string>
+                <int name="keyEquivalentModifier">1572864</int>
+                <ostype name="command">cpLP</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="280">
+                <string name="title">Small Panel</string>
+                <string name="keyEquivalent">s</string>
+                <int name="keyEquivalentModifier">1572864</int>
+                <ostype name="command">cpSP</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="282">
+                <string name="title">Computer Panel</string>
+                <string name="keyEquivalent">c</string>
+                <int name="keyEquivalentModifier">1572864</int>
+                <ostype name="command">cpCP</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="283">
+                <string name="title">Scientific Panel</string>
+                <string name="keyEquivalent">w</string>
+                <int name="keyEquivalentModifier">1572864</int>
+                <ostype name="command">cpWP</ostype>
+              </object>
+            </array>
+          </object>
+        </object>
+        <object class="IBCarbonMenuItem" id="274">
+          <string name="title">Window</string>
+          <object name="submenu" class="IBCarbonMenu" id="276">
+            <string name="title">Window</string>
+            <int name="menuID">3</int>
+            <array count="2" name="items">
+              <object class="IBCarbonMenuItem" id="275">
+                <boolean name="dynamic">TRUE</boolean>
+                <string name="title">Minimize Window</string>
+                <string name="keyEquivalent">m</string>
+                <ostype name="command">mini</ostype>
+              </object>
+              <object class="IBCarbonMenuItem" id="271">
+                <boolean name="separator">TRUE</boolean>
+              </object>
+            </array>
+            <string name="name">_NSWindowsMenu</string>
+          </object>
+        </object>
+      </array>
+      <string name="name">_NSMainMenu</string>
+    </object>
+    <reference idRef="261"/>
+    <reference idRef="263"/>
+    <reference idRef="265"/>
+    <reference idRef="268"/>
+    <reference idRef="271"/>
+    <reference idRef="274"/>
+    <reference idRef="275"/>
+    <reference idRef="276"/>
+    <reference idRef="278"/>
+    <reference idRef="279"/>
+    <reference idRef="280"/>
+    <reference idRef="281"/>
+    <reference idRef="282"/>
+    <reference idRef="283"/>
+    <object class="IBCarbonButton" id="285">
+      <string name="bounds">165 300 185 346 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">75</int>
+      <string name="title">pow</string>
+      <ostype name="command">75  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="286">
+      <string name="bounds">133 188 153 234 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">62</int>
+      <string name="title">)]</string>
+      <ostype name="command">62  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="287">
+      <string name="bounds">101 188 121 234 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">14</int>
+      <string name="title">MR</string>
+      <ostype name="command">14  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="288">
+      <string name="bounds">165 244 185 290 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">69</int>
+      <string name="title">9</string>
+      <ostype name="command">69  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="289">
+      <string name="bounds">101 298 121 344 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">26</int>
+      <string name="title">M-</string>
+      <ostype name="command">26  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="290">
+      <string name="bounds">229 300 249 346 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">77</int>
+      <string name="title">+</string>
+      <ostype name="command">77  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="291">
+      <string name="bounds">261 132 281 178 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">60</int>
+      <string name="title">0</string>
+      <ostype name="command">60  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="292">
+      <string name="bounds">101 74 121 120 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">61</int>
+      <string name="title">Fix</string>
+      <ostype name="command">61  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="293">
+      <string name="bounds">197 132 217 178 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">58</int>
+      <string name="title">4</string>
+      <ostype name="command">58  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="294">
+      <string name="bounds">197 188 217 234 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">64</int>
+      <string name="title">5</string>
+      <ostype name="command">64  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="295">
+      <string name="bounds">197 300 217 346 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">76</int>
+      <string name="title">*</string>
+      <ostype name="command">76  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="296">
+      <string name="bounds">165 356 185 402 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">80</int>
+      <string name="title">√</string>
+      <ostype name="command">80  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="297">
+      <string name="bounds">133 298 153 402 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">74</int>
+      <string name="title">AC</string>
+      <ostype name="command">74  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="298">
+      <string name="bounds">165 188 185 234 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">63</int>
+      <string name="title">8</string>
+      <ostype name="command">63  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="299">
+      <string name="bounds">261 188 281 234 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">66</int>
+      <string name="title">.</string>
+      <ostype name="command">66  </ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="300">
+      <string name="bounds">17 298 33 313 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">39</int>
+      <string name="title">M</string>
+    </object>
+    <object class="IBCarbonButton" id="301">
+      <string name="bounds">197 244 217 290 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">70</int>
+      <string name="title">6</string>
+      <ostype name="command">70  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="302">
+      <string name="bounds">101 244 121 290 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">20</int>
+      <string name="title">M+</string>
+      <ostype name="command">20  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="303">
+      <string name="bounds">229 356 249 402 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">82</int>
+      <string name="title">-</string>
+      <ostype name="command">82  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="304">
+      <string name="bounds">197 356 217 402 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">81</int>
+      <string name="title">/</string>
+      <ostype name="command">81  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="305">
+      <string name="bounds">261 414 281 460 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">88</int>
+      <string name="title">=</string>
+      <ostype name="command">88  </ostype>
+      <int name="buttonType">1</int>
+    </object>
+    <object class="IBCarbonRootControl" id="306">
+      <string name="bounds">0 0 333 480 </string>
+      <array count="61" name="subviews">
+        <object class="IBCarbonGroupBox" id="307">
+          <string name="bounds">27 20 81 460 </string>
+          <array count="2" name="subviews">
+            <object class="IBCarbonStaticText" id="314">
+              <string name="bounds">55 31 71 384 </string>
+              <ostype name="controlSignature">CALC</ostype>
+              <int name="controlID">34</int>
+              <string name="title">----Free Version----</string>
+            </object>
+            <object class="IBCarbonStaticText" id="308">
+              <string name="bounds">55 403 71 444 </string>
+              <ostype name="controlSignature">CALC</ostype>
+              <int name="controlID">35</int>
+              <string name="title">Exp</string>
+            </object>
+          </array>
+          <string name="title">Computer Panel</string>
+        </object>
+        <reference idRef="300"/>
+        <object class="IBCarbonStaticText" id="320">
+          <string name="bounds">17 321 33 336 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">1</int>
+          <string name="title">K</string>
+        </object>
+        <object class="IBCarbonButton" id="315">
+          <string name="bounds">101 414 121 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">48</int>
+          <string name="title">X/Y</string>
+          <ostype name="command">48  </ostype>
+        </object>
+        <reference idRef="292"/>
+        <object class="IBCarbonButton" id="310">
+          <string name="bounds">133 74 153 120 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">55</int>
+          <string name="title">Rnd</string>
+          <ostype name="command">55  </ostype>
+        </object>
+        <reference idRef="297"/>
+        <object class="IBCarbonButton" id="316">
+          <string name="bounds">133 244 153 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">68</int>
+          <string name="title">C</string>
+          <ostype name="command">68  </ostype>
+        </object>
+        <reference idRef="286"/>
+        <object class="IBCarbonButton" id="319">
+          <string name="bounds">133 132 153 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">56</int>
+          <string name="title">[(</string>
+          <ostype name="command">56  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="323">
+          <string name="bounds">101 132 121 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">8</int>
+          <string name="title">Min</string>
+          <ostype name="command">8   </ostype>
+        </object>
+        <reference idRef="287"/>
+        <reference idRef="302"/>
+        <reference idRef="289"/>
+        <object class="IBCarbonButton" id="313">
+          <string name="bounds">101 356 121 402 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">32</int>
+          <string name="title">X/M</string>
+          <ostype name="command">32  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="312">
+          <string name="bounds">165 132 185 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">57</int>
+          <string name="title">7</string>
+          <ostype name="command">57  </ostype>
+        </object>
+        <reference idRef="291"/>
+        <reference idRef="293"/>
+        <object class="IBCarbonButton" id="318">
+          <string name="bounds">229 132 249 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">59</int>
+          <string name="title">1</string>
+          <ostype name="command">59  </ostype>
+        </object>
+        <reference idRef="298"/>
+        <reference idRef="299"/>
+        <reference idRef="294"/>
+        <object class="IBCarbonButton" id="317">
+          <string name="bounds">229 188 249 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">65</int>
+          <string name="title">2</string>
+          <ostype name="command">65  </ostype>
+        </object>
+        <reference idRef="301"/>
+        <object class="IBCarbonButton" id="322">
+          <string name="bounds">229 244 249 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">71</int>
+          <string name="title">3</string>
+          <ostype name="command">71  </ostype>
+        </object>
+        <reference idRef="288"/>
+        <object class="IBCarbonButton" id="309">
+          <string name="bounds">261 244 281 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">72</int>
+          <string name="title">Exp</string>
+          <ostype name="command">72  </ostype>
+        </object>
+        <reference idRef="290"/>
+        <reference idRef="285"/>
+        <object class="IBCarbonButton" id="321">
+          <string name="bounds">261 300 281 346 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">78</int>
+          <string name="title">±</string>
+          <ostype name="command">78  </ostype>
+        </object>
+        <reference idRef="295"/>
+        <reference idRef="296"/>
+        <reference idRef="305"/>
+        <reference idRef="303"/>
+        <reference idRef="304"/>
+        <object class="IBCarbonButton" id="324">
+          <string name="bounds">165 74 185 120 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">13</int>
+          <string name="title">int</string>
+          <ostype name="command">13  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="325">
+          <string name="bounds">197 74 217 120 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">19</int>
+          <string name="title">frc</string>
+          <ostype name="command">19  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="326">
+          <string name="bounds">229 74 249 120 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">7</int>
+          <string name="title">abs</string>
+          <ostype name="command">7   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="327">
+          <string name="bounds">261 74 281 120 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">44</int>
+          <string name="title">Oct</string>
+          <ostype name="command">44  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="328">
+          <string name="bounds">293 74 313 120 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">46</int>
+          <string name="title">Hex</string>
+          <ostype name="command">46  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="329">
+          <string name="bounds">293 132 313 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">54</int>
+          <string name="title">A</string>
+          <ostype name="command">54  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="330">
+          <string name="bounds">293 188 313 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">53</int>
+          <string name="title">B</string>
+          <ostype name="command">53  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="331">
+          <string name="bounds">293 244 313 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">52</int>
+          <string name="title">C</string>
+          <ostype name="command">52  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="332">
+          <string name="bounds">293 300 313 346 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">51</int>
+          <string name="title">D</string>
+          <ostype name="command">51  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="333">
+          <string name="bounds">293 356 313 402 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">50</int>
+          <string name="title">E</string>
+          <ostype name="command">50  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="334">
+          <string name="bounds">293 414 313 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">49</int>
+          <string name="title">F</string>
+          <ostype name="command">49  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="335">
+          <string name="bounds">261 356 281 402 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">83</int>
+          <string name="title">not</string>
+          <ostype name="command">83  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="336">
+          <string name="bounds">101 20 121 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">2</int>
+          <string name="title">Inv</string>
+          <ostype name="command">2   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="337">
+          <string name="bounds">133 20 153 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">28</int>
+          <string name="title">Byt</string>
+          <ostype name="command">28  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="338">
+          <string name="bounds">165 20 185 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">29</int>
+          <string name="title">Wrd</string>
+          <ostype name="command">29  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="339">
+          <string name="bounds">197 20 217 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">30</int>
+          <string name="title">Lng</string>
+          <ostype name="command">30  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="340">
+          <string name="bounds">229 20 249 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">27</int>
+          <string name="title">Flt</string>
+          <ostype name="command">27  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="341">
+          <string name="bounds">261 20 281 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">43</int>
+          <string name="title">Bin</string>
+          <ostype name="command">43  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="342">
+          <string name="bounds">293 20 313 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">45</int>
+          <string name="title">Dec</string>
+          <ostype name="command">45  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="343">
+          <string name="bounds">133 414 153 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">84</int>
+          <string name="title">mod</string>
+          <ostype name="command">84  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="344">
+          <string name="bounds">165 414 185 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">85</int>
+          <string name="title">and</string>
+          <ostype name="command">85  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="345">
+          <string name="bounds">197 414 217 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">86</int>
+          <string name="title">xor</string>
+          <ostype name="command">86  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="346">
+          <string name="bounds">229 414 249 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">87</int>
+          <string name="title">or</string>
+          <ostype name="command">87  </ostype>
+        </object>
+        <object class="IBCarbonStaticText" id="347">
+          <string name="bounds">17 166 33 190 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">36</int>
+          <string name="title">Inv</string>
+          <ostype name="command">36  </ostype>
+        </object>
+        <object class="IBCarbonStaticText" id="348">
+          <string name="bounds">17 198 33 222 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">41</int>
+          <string name="title">Dec</string>
+        </object>
+        <object class="IBCarbonStaticText" id="349">
+          <string name="bounds">17 230 33 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">42</int>
+          <string name="title">Float</string>
+        </object>
+      </array>
+    </object>
+    <reference idRef="307"/>
+    <reference idRef="308"/>
+    <reference idRef="309"/>
+    <reference idRef="310"/>
+    <object class="IBCarbonWindow" id="311">
+      <string name="windowRect">99 170 432 650 </string>
+      <string name="title">Computer Panel</string>
+      <reference name="rootControl" idRef="306"/>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <int name="themeBrush">1</int>
+    </object>
+    <reference idRef="312"/>
+    <reference idRef="313"/>
+    <reference idRef="314"/>
+    <reference idRef="315"/>
+    <reference idRef="316"/>
+    <reference idRef="317"/>
+    <reference idRef="318"/>
+    <reference idRef="319"/>
+    <reference idRef="320"/>
+    <reference idRef="321"/>
+    <reference idRef="322"/>
+    <reference idRef="323"/>
+    <reference idRef="324"/>
+    <reference idRef="325"/>
+    <reference idRef="326"/>
+    <reference idRef="327"/>
+    <reference idRef="328"/>
+    <reference idRef="329"/>
+    <reference idRef="330"/>
+    <reference idRef="331"/>
+    <reference idRef="332"/>
+    <reference idRef="333"/>
+    <reference idRef="334"/>
+    <reference idRef="335"/>
+    <reference idRef="336"/>
+    <reference idRef="337"/>
+    <reference idRef="338"/>
+    <reference idRef="339"/>
+    <reference idRef="340"/>
+    <reference idRef="341"/>
+    <reference idRef="342"/>
+    <reference idRef="343"/>
+    <reference idRef="344"/>
+    <reference idRef="345"/>
+    <reference idRef="346"/>
+    <reference idRef="347"/>
+    <reference idRef="348"/>
+    <reference idRef="349"/>
+    <object class="IBCarbonButton" id="350">
+      <string name="bounds">293 302 313 348 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">60</int>
+      <string name="title">0</string>
+      <ostype name="command">60  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="351">
+      <string name="bounds">133 526 153 572 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">61</int>
+      <string name="title">Fix</string>
+      <ostype name="command">61  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="352">
+      <string name="bounds">165 358 185 404 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">62</int>
+      <string name="title">)]</string>
+      <ostype name="command">62  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="356">
+      <string name="bounds">165 468 185 572 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">74</int>
+      <string name="title">AC</string>
+      <ostype name="command">74  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="357">
+      <string name="bounds">261 302 281 348 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">59</int>
+      <string name="title">1</string>
+      <ostype name="command">59  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="359">
+      <string name="bounds">293 526 313 572 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">88</int>
+      <string name="title">=</string>
+      <ostype name="command">88  </ostype>
+      <int name="buttonType">1</int>
+    </object>
+    <object class="IBCarbonStaticText" id="360">
+      <string name="bounds">59 201 75 554 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">34</int>
+      <string name="title">----Free Version----</string>
+    </object>
+    <object class="IBCarbonButton" id="362">
+      <string name="bounds">197 358 217 404 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">63</int>
+      <string name="title">8</string>
+      <ostype name="command">63  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="363">
+      <string name="bounds">133 302 153 348 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">7</int>
+      <string name="title">abs</string>
+      <ostype name="command">7   </ostype>
+    </object>
+    <object class="IBCarbonButton" id="364">
+      <string name="bounds">261 358 281 404 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">65</int>
+      <string name="title">2</string>
+      <ostype name="command">65  </ostype>
+    </object>
+    <object class="IBCarbonRootControl" id="366">
+      <string name="bounds">0 0 333 650 </string>
+      <array count="80" name="subviews">
+        <object class="IBCarbonGroupBox" id="390">
+          <string name="bounds">31 190 85 630 </string>
+          <array count="2" name="subviews">
+            <reference idRef="360"/>
+            <object class="IBCarbonStaticText" id="370">
+              <string name="bounds">59 573 75 614 </string>
+              <ostype name="controlSignature">CALC</ostype>
+              <int name="controlID">35</int>
+              <string name="title">Exp</string>
+            </object>
+          </array>
+          <string name="title">Scientific Panel</string>
+        </object>
+        <object class="IBCarbonStaticText" id="392">
+          <string name="bounds">21 389 37 404 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">39</int>
+          <string name="title">M</string>
+        </object>
+        <object class="IBCarbonStaticText" id="411">
+          <string name="bounds">21 435 37 450 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">1</int>
+          <string name="title">K</string>
+        </object>
+        <object class="IBCarbonButton" id="377">
+          <string name="bounds">293 584 313 630 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">48</int>
+          <string name="title">X/Y</string>
+          <ostype name="command">48  </ostype>
+        </object>
+        <reference idRef="351"/>
+        <object class="IBCarbonButton" id="388">
+          <string name="bounds">133 468 153 514 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">55</int>
+          <string name="title">Rnd</string>
+          <ostype name="command">55  </ostype>
+        </object>
+        <reference idRef="356"/>
+        <object class="IBCarbonButton" id="414">
+          <string name="bounds">165 414 185 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">68</int>
+          <string name="title">C</string>
+          <ostype name="command">68  </ostype>
+        </object>
+        <reference idRef="352"/>
+        <object class="IBCarbonButton" id="374">
+          <string name="bounds">165 302 185 348 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">56</int>
+          <string name="title">[(</string>
+          <ostype name="command">56  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="405">
+          <string name="bounds">133 584 153 630 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">8</int>
+          <string name="title">Min</string>
+          <ostype name="command">8   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="400">
+          <string name="bounds">165 584 185 630 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">14</int>
+          <string name="title">MR</string>
+          <ostype name="command">14  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="371">
+          <string name="bounds">197 584 217 630 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">20</int>
+          <string name="title">M+</string>
+          <ostype name="command">20  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="413">
+          <string name="bounds">229 584 249 630 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">26</int>
+          <string name="title">M-</string>
+          <ostype name="command">26  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="369">
+          <string name="bounds">261 584 281 630 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">32</int>
+          <string name="title">X/M</string>
+          <ostype name="command">32  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="404">
+          <string name="bounds">197 302 217 348 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">57</int>
+          <string name="title">7</string>
+          <ostype name="command">57  </ostype>
+        </object>
+        <reference idRef="350"/>
+        <object class="IBCarbonButton" id="387">
+          <string name="bounds">229 302 249 348 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">58</int>
+          <string name="title">4</string>
+          <ostype name="command">58  </ostype>
+        </object>
+        <reference idRef="357"/>
+        <reference idRef="362"/>
+        <object class="IBCarbonButton" id="384">
+          <string name="bounds">293 358 313 404 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">66</int>
+          <string name="title">.</string>
+          <ostype name="command">66  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="398">
+          <string name="bounds">229 358 249 404 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">64</int>
+          <string name="title">5</string>
+          <ostype name="command">64  </ostype>
+        </object>
+        <reference idRef="364"/>
+        <object class="IBCarbonButton" id="406">
+          <string name="bounds">229 414 249 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">70</int>
+          <string name="title">6</string>
+          <ostype name="command">70  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="380">
+          <string name="bounds">261 414 281 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">71</int>
+          <string name="title">3</string>
+          <ostype name="command">71  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="410">
+          <string name="bounds">197 414 217 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">69</int>
+          <string name="title">9</string>
+          <ostype name="command">69  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="403">
+          <string name="bounds">293 414 313 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">72</int>
+          <string name="title">Exp</string>
+          <ostype name="command">72  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="412">
+          <string name="bounds">261 470 281 516 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">77</int>
+          <string name="title">+</string>
+          <ostype name="command">77  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="375">
+          <string name="bounds">197 470 217 516 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">75</int>
+          <string name="title">pow</string>
+          <ostype name="command">75  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="373">
+          <string name="bounds">293 470 313 516 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">78</int>
+          <string name="title">±</string>
+          <ostype name="command">78  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="402">
+          <string name="bounds">229 470 249 516 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">76</int>
+          <string name="title">*</string>
+          <ostype name="command">76  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="393">
+          <string name="bounds">197 526 217 572 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">80</int>
+          <string name="title">√</string>
+          <ostype name="command">80  </ostype>
+        </object>
+        <reference idRef="359"/>
+        <object class="IBCarbonButton" id="399">
+          <string name="bounds">261 526 281 572 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">82</int>
+          <string name="title">-</string>
+          <ostype name="command">82  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="379">
+          <string name="bounds">229 526 249 572 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">81</int>
+          <string name="title">/</string>
+          <ostype name="command">81  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="367">
+          <string name="bounds">133 358 153 404 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">13</int>
+          <string name="title">int</string>
+          <ostype name="command">13  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="389">
+          <string name="bounds">133 414 153 460 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">19</int>
+          <string name="title">frc</string>
+          <ostype name="command">19  </ostype>
+        </object>
+        <reference idRef="363"/>
+        <object class="IBCarbonButton" id="407">
+          <string name="bounds">101 20 121 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">2</int>
+          <string name="title">Inv</string>
+          <ostype name="command">2   </ostype>
+        </object>
+        <object class="IBCarbonStaticText" id="397">
+          <string name="bounds">21 325 37 349 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">36</int>
+          <string name="title">Inv</string>
+          <ostype name="command">36  </ostype>
+        </object>
+        <object class="IBCarbonStaticText" id="386">
+          <string name="bounds">21 357 37 381 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">37</int>
+          <string name="title">Hyp</string>
+        </object>
+        <object class="IBCarbonStaticText" id="395">
+          <string name="bounds">21 458 37 494 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">103</int>
+          <string name="title">Line</string>
+        </object>
+        <object class="IBCarbonButton" id="415">
+          <string name="bounds">101 76 121 122 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">99</int>
+          <string name="title">LR</string>
+          <ostype name="command">99  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="416">
+          <string name="bounds">101 132 121 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">100</int>
+          <string name="title">LNR</string>
+          <ostype name="command">100 </ostype>
+        </object>
+        <object class="IBCarbonButton" id="417">
+          <string name="bounds">101 188 121 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">101</int>
+          <string name="title">EXR</string>
+          <ostype name="command">101 </ostype>
+        </object>
+        <object class="IBCarbonButton" id="418">
+          <string name="bounds">101 244 121 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">102</int>
+          <string name="title">PR</string>
+          <ostype name="command">102 </ostype>
+        </object>
+        <object class="IBCarbonButton" id="419">
+          <string name="bounds">133 20 153 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">31</int>
+          <string name="title">Eng</string>
+          <ostype name="command">31  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="420">
+          <string name="bounds">133 244 153 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">3</int>
+          <string name="title">Ran</string>
+          <ostype name="command">3   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="421">
+          <string name="bounds">133 132 153 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">16</int>
+          <string name="title">dn1</string>
+          <ostype name="command">16  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="422">
+          <string name="bounds">133 188 153 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">22</int>
+          <string name="title">d</string>
+          <ostype name="command">22  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="423">
+          <string name="bounds">133 76 153 122 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">10</int>
+          <string name="title">dn</string>
+          <ostype name="command">10  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="424">
+          <string name="bounds">165 244 185 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">97</int>
+          <string name="title">X</string>
+          <ostype name="command">97  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="425">
+          <string name="bounds">165 132 185 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">15</int>
+          <string name="title">∑x</string>
+          <ostype name="command">15  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="426">
+          <string name="bounds">165 76 185 122 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">9</int>
+          <string name="title">∑x2</string>
+          <ostype name="command">9   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="427">
+          <string name="bounds">165 20 185 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Xin</string>
+          <ostype name="command">4   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="428">
+          <string name="bounds">165 188 185 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">21</int>
+          <string name="title">n</string>
+          <ostype name="command">21  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="429">
+          <string name="bounds">197 132 217 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">92</int>
+          <string name="title">∑y</string>
+          <ostype name="command">92  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="430">
+          <string name="bounds">197 76 217 122 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">93</int>
+          <string name="title">∑y2</string>
+          <ostype name="command">93  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="431">
+          <string name="bounds">197 20 217 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">90</int>
+          <string name="title">Yin</string>
+          <ostype name="command">90  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="432">
+          <string name="bounds">197 188 217 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">91</int>
+          <string name="title">∑xy</string>
+          <ostype name="command">91  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="433">
+          <string name="bounds">197 244 217 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">98</int>
+          <string name="title">Y</string>
+          <ostype name="command">98  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="434">
+          <string name="bounds">229 76 249 122 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">95</int>
+          <string name="title">m</string>
+          <ostype name="command">95  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="435">
+          <string name="bounds">229 20 249 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">94</int>
+          <string name="title">k</string>
+          <ostype name="command">94  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="436">
+          <string name="bounds">229 132 249 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">96</int>
+          <string name="title">r</string>
+          <ostype name="command">96  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="437">
+          <string name="bounds">229 188 249 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">104</int>
+          <string name="title">BST</string>
+          <ostype name="command">104 </ostype>
+        </object>
+        <object class="IBCarbonButton" id="438">
+          <string name="bounds">229 244 249 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">47</int>
+          <string name="title">deg</string>
+          <ostype name="command">47  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="439">
+          <string name="bounds">261 76 281 122 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">11</int>
+          <string name="title">sin</string>
+          <ostype name="command">11  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="440">
+          <string name="bounds">261 20 281 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">5</int>
+          <string name="title">hyp</string>
+          <ostype name="command">5   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="441">
+          <string name="bounds">261 188 281 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">23</int>
+          <string name="title">tan</string>
+          <ostype name="command">23  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="442">
+          <string name="bounds">261 244 281 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">24</int>
+          <string name="title">sqr</string>
+          <ostype name="command">24  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="443">
+          <string name="bounds">261 132 281 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">17</int>
+          <string name="title">cos</string>
+          <ostype name="command">17  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="444">
+          <string name="bounds">293 244 313 290 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">89</int>
+          <string name="title">BK</string>
+          <ostype name="command">89  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="445">
+          <string name="bounds">293 132 313 178 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">18</int>
+          <string name="title">1/x</string>
+          <ostype name="command">18  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="446">
+          <string name="bounds">293 76 313 122 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">12</int>
+          <string name="title">ln</string>
+          <ostype name="command">12  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="447">
+          <string name="bounds">293 20 313 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">6</int>
+          <string name="title">log</string>
+          <ostype name="command">6   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="448">
+          <string name="bounds">293 188 313 234 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">25</int>
+          <string name="title">x!</string>
+          <ostype name="command">25  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="449">
+          <string name="bounds">101 526 121 572 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">73</int>
+          <string name="title">Rad</string>
+          <ostype name="command">73  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="450">
+          <string name="bounds">101 468 121 514 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">67</int>
+          <string name="title">Deg</string>
+          <ostype name="command">67  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="451">
+          <string name="bounds">101 584 121 630 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">79</int>
+          <string name="title">Gra</string>
+          <ostype name="command">79  </ostype>
+        </object>
+        <object class="IBCarbonStaticText" id="453">
+          <string name="bounds">21 412 37 427 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">40</int>
+          <string name="title">S</string>
+        </object>
+      </array>
+    </object>
+    <reference idRef="367"/>
+    <reference idRef="369"/>
+    <reference idRef="370"/>
+    <reference idRef="371"/>
+    <object class="IBCarbonWindow" id="372">
+      <string name="windowRect">99 74 432 724 </string>
+      <string name="title">Scientific Panel</string>
+      <reference name="rootControl" idRef="366"/>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <int name="themeBrush">1</int>
+    </object>
+    <reference idRef="373"/>
+    <reference idRef="374"/>
+    <reference idRef="375"/>
+    <reference idRef="377"/>
+    <reference idRef="379"/>
+    <reference idRef="380"/>
+    <reference idRef="384"/>
+    <reference idRef="386"/>
+    <reference idRef="387"/>
+    <reference idRef="388"/>
+    <reference idRef="389"/>
+    <reference idRef="390"/>
+    <reference idRef="392"/>
+    <reference idRef="393"/>
+    <reference idRef="395"/>
+    <reference idRef="397"/>
+    <reference idRef="398"/>
+    <reference idRef="399"/>
+    <reference idRef="400"/>
+    <reference idRef="402"/>
+    <reference idRef="403"/>
+    <reference idRef="404"/>
+    <reference idRef="405"/>
+    <reference idRef="406"/>
+    <reference idRef="407"/>
+    <reference idRef="410"/>
+    <reference idRef="411"/>
+    <reference idRef="412"/>
+    <reference idRef="413"/>
+    <reference idRef="414"/>
+    <reference idRef="415"/>
+    <reference idRef="416"/>
+    <reference idRef="417"/>
+    <reference idRef="418"/>
+    <reference idRef="419"/>
+    <reference idRef="420"/>
+    <reference idRef="421"/>
+    <reference idRef="422"/>
+    <reference idRef="423"/>
+    <reference idRef="424"/>
+    <reference idRef="425"/>
+    <reference idRef="426"/>
+    <reference idRef="427"/>
+    <reference idRef="428"/>
+    <reference idRef="429"/>
+    <reference idRef="430"/>
+    <reference idRef="431"/>
+    <reference idRef="432"/>
+    <reference idRef="433"/>
+    <reference idRef="434"/>
+    <reference idRef="435"/>
+    <reference idRef="436"/>
+    <reference idRef="437"/>
+    <reference idRef="438"/>
+    <reference idRef="439"/>
+    <reference idRef="440"/>
+    <reference idRef="441"/>
+    <reference idRef="442"/>
+    <reference idRef="443"/>
+    <reference idRef="444"/>
+    <reference idRef="445"/>
+    <reference idRef="446"/>
+    <reference idRef="447"/>
+    <reference idRef="448"/>
+    <reference idRef="449"/>
+    <reference idRef="450"/>
+    <reference idRef="451"/>
+    <reference idRef="453"/>
+    <object class="IBCarbonButton" id="454">
+      <string name="bounds">314 426 334 472 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">60</int>
+      <string name="title">0</string>
+      <ostype name="command">60  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="455">
+      <string name="bounds">314 136 334 182 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">20</int>
+      <string name="title">M+</string>
+      <ostype name="command">20  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="456">
+      <string name="bounds">154 20 174 66 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">3</int>
+      <string name="title">Ran</string>
+      <ostype name="command">3   </ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="459">
+      <string name="bounds">15 514 31 529 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">39</int>
+      <string name="title">M</string>
+    </object>
+    <object class="IBCarbonButton" id="460">
+      <string name="bounds">186 426 206 472 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">56</int>
+      <string name="title">[(</string>
+      <ostype name="command">56  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="461">
+      <string name="bounds">154 78 174 124 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">9</int>
+      <string name="title">∑x2</string>
+      <ostype name="command">9   </ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="462">
+      <string name="bounds">15 560 31 575 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">1</int>
+      <string name="title">K</string>
+    </object>
+    <object class="IBCarbonButton" id="463">
+      <string name="bounds">218 194 238 240 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">23</int>
+      <string name="title">tan</string>
+      <ostype name="command">23  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="464">
+      <string name="bounds">282 194 302 240 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">25</int>
+      <string name="title">x!</string>
+      <ostype name="command">25  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="465">
+      <string name="bounds">314 252 334 298 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">32</int>
+      <string name="title">X/M</string>
+      <ostype name="command">32  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="466">
+      <string name="bounds">250 594 270 640 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">76</int>
+      <string name="title">*</string>
+      <ostype name="command">76  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="469">
+      <string name="bounds">186 78 206 124 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">10</int>
+      <string name="title">dn</string>
+      <ostype name="command">10  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="470">
+      <string name="bounds">218 20 238 66 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">5</int>
+      <string name="title">hyp</string>
+      <ostype name="command">5   </ostype>
+    </object>
+    <object class="IBCarbonButton" id="471">
+      <string name="bounds">282 426 302 472 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">59</int>
+      <string name="title">1</string>
+      <ostype name="command">59  </ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="472">
+      <string name="bounds">15 537 31 552 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">40</int>
+      <string name="title">S</string>
+    </object>
+    <object class="IBCarbonButton" id="473">
+      <string name="bounds">282 538 302 584 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">71</int>
+      <string name="title">3</string>
+      <ostype name="command">71  </ostype>
+    </object>
+    <object class="IBCarbonStaticText" id="474">
+      <string name="bounds">15 482 31 506 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">37</int>
+      <string name="title">Hyp</string>
+    </object>
+    <object class="IBCarbonButton" id="475">
+      <string name="bounds">186 136 206 182 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">16</int>
+      <string name="title">dn1</string>
+      <ostype name="command">16  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="476">
+      <string name="bounds">186 482 206 528 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">62</int>
+      <string name="title">)]</string>
+      <ostype name="command">62  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="477">
+      <string name="bounds">282 594 302 640 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">77</int>
+      <string name="title">+</string>
+      <ostype name="command">77  </ostype>
+    </object>
+    <object class="IBCarbonButton" id="478">
+      <string name="bounds">282 482 302 528 </string>
+      <ostype name="controlSignature">CALC</ostype>
+      <int name="controlID">65</int>
+      <string name="title">2</string>
+      <ostype name="command">65  </ostype>
+    </object>
+    <object class="IBCarbonRootControl" id="480">
+      <string name="bounds">0 0 354 774 </string>
+      <array count="87" name="subviews">
+        <object class="IBCarbonGroupBox" id="488">
+          <string name="bounds">25 314 132 754 </string>
+          <array count="4" name="subviews">
+            <object class="IBCarbonStaticText" id="535">
+              <string name="bounds">53 325 69 678 </string>
+              <ostype name="controlSignature">CALC</ostype>
+              <int name="controlID">34</int>
+              <string name="title">----Free Version----</string>
+            </object>
+            <object class="IBCarbonStaticText" id="496">
+              <string name="bounds">53 697 69 738 </string>
+              <ostype name="controlSignature">CALC</ostype>
+              <int name="controlID">35</int>
+              <string name="title">Exp</string>
+            </object>
+            <object class="IBCarbonStaticText" id="563">
+              <string name="bounds">77 325 93 678 </string>
+              <ostype name="controlSignature">CALC</ostype>
+              <int name="controlID">105</int>
+            </object>
+            <object class="IBCarbonStaticText" id="564">
+              <string name="bounds">77 697 93 738 </string>
+              <ostype name="controlSignature">CALC</ostype>
+              <int name="controlID">106</int>
+            </object>
+          </array>
+          <string name="title">Large Panel</string>
+        </object>
+        <reference idRef="459"/>
+        <reference idRef="462"/>
+        <object class="IBCarbonButton" id="487">
+          <string name="bounds">314 310 334 356 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">48</int>
+          <string name="title">X/Y</string>
+          <ostype name="command">48  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="515">
+          <string name="bounds">154 482 174 528 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">61</int>
+          <string name="title">Fix</string>
+          <ostype name="command">61  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="516">
+          <string name="bounds">154 426 174 472 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">55</int>
+          <string name="title">Rnd</string>
+          <ostype name="command">55  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="536">
+          <string name="bounds">186 592 206 696 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">74</int>
+          <string name="title">AC</string>
+          <ostype name="command">74  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="529">
+          <string name="bounds">186 538 206 584 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">68</int>
+          <string name="title">C</string>
+          <ostype name="command">68  </ostype>
+        </object>
+        <reference idRef="476"/>
+        <reference idRef="460"/>
+        <object class="IBCarbonButton" id="523">
+          <string name="bounds">314 20 334 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">8</int>
+          <string name="title">Min</string>
+          <ostype name="command">8   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="505">
+          <string name="bounds">314 78 334 124 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">14</int>
+          <string name="title">MR</string>
+          <ostype name="command">14  </ostype>
+        </object>
+        <reference idRef="455"/>
+        <object class="IBCarbonButton" id="526">
+          <string name="bounds">314 194 334 240 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">26</int>
+          <string name="title">M-</string>
+          <ostype name="command">26  </ostype>
+        </object>
+        <reference idRef="465"/>
+        <object class="IBCarbonButton" id="483">
+          <string name="bounds">218 426 238 472 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">57</int>
+          <string name="title">7</string>
+          <ostype name="command">57  </ostype>
+        </object>
+        <reference idRef="454"/>
+        <object class="IBCarbonButton" id="508">
+          <string name="bounds">250 426 270 472 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">58</int>
+          <string name="title">4</string>
+          <ostype name="command">58  </ostype>
+        </object>
+        <reference idRef="471"/>
+        <object class="IBCarbonButton" id="521">
+          <string name="bounds">218 482 238 528 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">63</int>
+          <string name="title">8</string>
+          <ostype name="command">63  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="525">
+          <string name="bounds">314 482 334 528 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">66</int>
+          <string name="title">.</string>
+          <ostype name="command">66  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="485">
+          <string name="bounds">250 482 270 528 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">64</int>
+          <string name="title">5</string>
+          <ostype name="command">64  </ostype>
+        </object>
+        <reference idRef="478"/>
+        <object class="IBCarbonButton" id="499">
+          <string name="bounds">250 538 270 584 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">70</int>
+          <string name="title">6</string>
+          <ostype name="command">70  </ostype>
+        </object>
+        <reference idRef="473"/>
+        <object class="IBCarbonButton" id="493">
+          <string name="bounds">218 538 238 584 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">69</int>
+          <string name="title">9</string>
+          <ostype name="command">69  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="481">
+          <string name="bounds">314 538 334 584 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">72</int>
+          <string name="title">Exp</string>
+          <ostype name="command">72  </ostype>
+        </object>
+        <reference idRef="477"/>
+        <object class="IBCarbonButton" id="500">
+          <string name="bounds">218 594 238 640 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">75</int>
+          <string name="title">pow</string>
+          <ostype name="command">75  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="495">
+          <string name="bounds">314 594 334 640 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">78</int>
+          <string name="title">±</string>
+          <ostype name="command">78  </ostype>
+        </object>
+        <reference idRef="466"/>
+        <object class="IBCarbonButton" id="512">
+          <string name="bounds">218 650 238 696 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">80</int>
+          <string name="title">√</string>
+          <ostype name="command">80  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="510">
+          <string name="bounds">282 708 302 754 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">88</int>
+          <string name="title">=</string>
+          <ostype name="command">88  </ostype>
+          <int name="buttonType">1</int>
+        </object>
+        <object class="IBCarbonButton" id="482">
+          <string name="bounds">282 650 302 696 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">82</int>
+          <string name="title">-</string>
+          <ostype name="command">82  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="524">
+          <string name="bounds">250 650 270 696 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">81</int>
+          <string name="title">/</string>
+          <ostype name="command">81  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="507">
+          <string name="bounds">122 20 142 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">2</int>
+          <string name="title">Inv</string>
+          <ostype name="command">2   </ostype>
+        </object>
+        <object class="IBCarbonStaticText" id="502">
+          <string name="bounds">15 450 31 474 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">36</int>
+          <string name="title">Inv</string>
+          <ostype name="command">36  </ostype>
+        </object>
+        <reference idRef="474"/>
+        <object class="IBCarbonButton" id="504">
+          <string name="bounds">282 252 302 298 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">31</int>
+          <string name="title">Eng</string>
+          <ostype name="command">31  </ostype>
+        </object>
+        <reference idRef="456"/>
+        <reference idRef="475"/>
+        <object class="IBCarbonButton" id="501">
+          <string name="bounds">186 194 206 240 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">22</int>
+          <string name="title">ø</string>
+          <ostype name="command">22  </ostype>
+        </object>
+        <reference idRef="469"/>
+        <object class="IBCarbonButton" id="484">
+          <string name="bounds">154 136 174 182 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">15</int>
+          <string name="title">∑x</string>
+          <ostype name="command">15  </ostype>
+        </object>
+        <reference idRef="461"/>
+        <object class="IBCarbonButton" id="522">
+          <string name="bounds">186 20 206 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Xin</string>
+          <ostype name="command">4   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="503">
+          <string name="bounds">154 194 174 240 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">21</int>
+          <string name="title">n</string>
+          <ostype name="command">21  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="517">
+          <string name="bounds">218 78 238 124 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">11</int>
+          <string name="title">sin</string>
+          <ostype name="command">11  </ostype>
+        </object>
+        <reference idRef="470"/>
+        <reference idRef="463"/>
+        <object class="IBCarbonButton" id="528">
+          <string name="bounds">250 194 270 240 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">24</int>
+          <string name="title">sqr</string>
+          <ostype name="command">24  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="519">
+          <string name="bounds">218 136 238 182 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">17</int>
+          <string name="title">cos</string>
+          <ostype name="command">17  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="531">
+          <string name="bounds">250 136 270 182 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">18</int>
+          <string name="title">1/x</string>
+          <ostype name="command">18  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="511">
+          <string name="bounds">250 78 270 124 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">12</int>
+          <string name="title">ln</string>
+          <ostype name="command">12  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="494">
+          <string name="bounds">250 20 270 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">6</int>
+          <string name="title">log</string>
+          <ostype name="command">6   </ostype>
+        </object>
+        <reference idRef="464"/>
+        <object class="IBCarbonButton" id="518">
+          <string name="bounds">154 592 174 638 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">73</int>
+          <string name="title">Rad</string>
+          <ostype name="command">73  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="492">
+          <string name="bounds">154 538 174 584 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">67</int>
+          <string name="title">Deg</string>
+          <ostype name="command">67  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="490">
+          <string name="bounds">154 650 174 696 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">79</int>
+          <string name="title">Gra</string>
+          <ostype name="command">79  </ostype>
+        </object>
+        <reference idRef="472"/>
+        <object class="IBCarbonButton" id="538">
+          <string name="bounds">314 368 334 414 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">54</int>
+          <string name="title">A</string>
+          <ostype name="command">54  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="539">
+          <string name="bounds">186 368 206 414 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">50</int>
+          <string name="title">E</string>
+          <ostype name="command">50  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="540">
+          <string name="bounds">154 368 174 414 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">49</int>
+          <string name="title">F</string>
+          <ostype name="command">49  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="541">
+          <string name="bounds">250 368 270 414 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">52</int>
+          <string name="title">C</string>
+          <ostype name="command">52  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="542">
+          <string name="bounds">218 368 238 414 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">51</int>
+          <string name="title">D</string>
+          <ostype name="command">51  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="543">
+          <string name="bounds">282 368 302 414 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">53</int>
+          <string name="title">B</string>
+          <ostype name="command">53  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="544">
+          <string name="bounds">282 310 302 356 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">47</int>
+          <string name="title">º&apos;&quot;</string>
+          <ostype name="command">47  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="545">
+          <string name="bounds">250 310 270 356 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">46</int>
+          <string name="title">Hex</string>
+          <ostype name="command">46  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="546">
+          <string name="bounds">218 252 238 298 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">29</int>
+          <string name="title">Wrd</string>
+          <ostype name="command">29  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="547">
+          <string name="bounds">154 252 174 298 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">27</int>
+          <string name="title">Flt</string>
+          <ostype name="command">27  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="548">
+          <string name="bounds">154 310 174 356 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">43</int>
+          <string name="title">Bin</string>
+          <ostype name="command">43  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="549">
+          <string name="bounds">282 78 302 124 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">13</int>
+          <string name="title">int</string>
+          <ostype name="command">13  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="551">
+          <string name="bounds">186 310 206 356 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">44</int>
+          <string name="title">Oct</string>
+          <ostype name="command">44  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="552">
+          <string name="bounds">186 252 206 298 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">28</int>
+          <string name="title">Byt</string>
+          <ostype name="command">28  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="553">
+          <string name="bounds">250 252 270 298 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">30</int>
+          <string name="title">Lng</string>
+          <ostype name="command">30  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="554">
+          <string name="bounds">218 310 238 356 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">45</int>
+          <string name="title">Dec</string>
+          <ostype name="command">45  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="555">
+          <string name="bounds">282 20 302 66 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">7</int>
+          <string name="title">abs</string>
+          <ostype name="command">7   </ostype>
+        </object>
+        <object class="IBCarbonButton" id="556">
+          <string name="bounds">282 136 302 182 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">19</int>
+          <string name="title">frc</string>
+          <ostype name="command">19  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="557">
+          <string name="bounds">154 708 174 754 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">84</int>
+          <string name="title">mod</string>
+          <ostype name="command">84  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="558">
+          <string name="bounds">186 708 206 754 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">85</int>
+          <string name="title">and</string>
+          <ostype name="command">85  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="559">
+          <string name="bounds">250 708 270 754 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">87</int>
+          <string name="title">or</string>
+          <ostype name="command">87  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="560">
+          <string name="bounds">218 708 238 754 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">86</int>
+          <string name="title">xor</string>
+          <ostype name="command">86  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="561">
+          <string name="bounds">314 650 334 696 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">83</int>
+          <string name="title">not</string>
+          <ostype name="command">83  </ostype>
+        </object>
+        <object class="IBCarbonButton" id="562">
+          <string name="bounds">314 708 334 754 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">88</int>
+          <string name="title">=</string>
+          <ostype name="command">88  </ostype>
+          <int name="buttonType">1</int>
+        </object>
+        <object class="IBCarbonStaticText" id="565">
+          <string name="bounds">15 615 31 639 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">41</int>
+          <string name="title">Dec</string>
+        </object>
+        <object class="IBCarbonStaticText" id="566">
+          <string name="bounds">15 647 31 721 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">42</int>
+          <string name="title">Float</string>
+        </object>
+        <object class="IBCarbonStaticText" id="567">
+          <string name="bounds">15 572 31 607 </string>
+          <ostype name="controlSignature">CALC</ostype>
+          <int name="controlID">38</int>
+          <string name="title">Deg</string>
+        </object>
+      </array>
+    </object>
+    <reference idRef="481"/>
+    <reference idRef="482"/>
+    <reference idRef="483"/>
+    <reference idRef="484"/>
+    <reference idRef="485"/>
+    <reference idRef="487"/>
+    <reference idRef="488"/>
+    <reference idRef="490"/>
+    <reference idRef="492"/>
+    <reference idRef="493"/>
+    <reference idRef="494"/>
+    <reference idRef="495"/>
+    <reference idRef="496"/>
+    <reference idRef="499"/>
+    <reference idRef="500"/>
+    <reference idRef="501"/>
+    <reference idRef="502"/>
+    <reference idRef="503"/>
+    <reference idRef="504"/>
+    <reference idRef="505"/>
+    <reference idRef="507"/>
+    <reference idRef="508"/>
+    <reference idRef="510"/>
+    <reference idRef="511"/>
+    <reference idRef="512"/>
+    <reference idRef="515"/>
+    <reference idRef="516"/>
+    <reference idRef="517"/>
+    <reference idRef="518"/>
+    <reference idRef="519"/>
+    <reference idRef="521"/>
+    <reference idRef="522"/>
+    <reference idRef="523"/>
+    <reference idRef="524"/>
+    <reference idRef="525"/>
+    <reference idRef="526"/>
+    <reference idRef="528"/>
+    <reference idRef="529"/>
+    <reference idRef="531"/>
+    <object class="IBCarbonWindow" id="534">
+      <string name="windowRect">99 83 453 857 </string>
+      <string name="title">Large Panel</string>
+      <reference name="rootControl" idRef="480"/>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <int name="themeBrush">1</int>
+    </object>
+    <reference idRef="535"/>
+    <reference idRef="536"/>
+    <reference idRef="538"/>
+    <reference idRef="539"/>
+    <reference idRef="540"/>
+    <reference idRef="541"/>
+    <reference idRef="542"/>
+    <reference idRef="543"/>
+    <reference idRef="544"/>
+    <reference idRef="545"/>
+    <reference idRef="546"/>
+    <reference idRef="547"/>
+    <reference idRef="548"/>
+    <reference idRef="549"/>
+    <reference idRef="551"/>
+    <reference idRef="552"/>
+    <reference idRef="553"/>
+    <reference idRef="554"/>
+    <reference idRef="555"/>
+    <reference idRef="556"/>
+    <reference idRef="557"/>
+    <reference idRef="558"/>
+    <reference idRef="559"/>
+    <reference idRef="560"/>
+    <reference idRef="561"/>
+    <reference idRef="562"/>
+    <reference idRef="563"/>
+    <reference idRef="564"/>
+    <reference idRef="565"/>
+    <reference idRef="566"/>
+    <reference idRef="567"/>
+    <object class="IBCarbonWindow" id="568">
+      <string name="windowRect">316 504 571 879 </string>
+      <string name="title">About Calculator</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="569">
+        <string name="bounds">0 0 255 375 </string>
+        <array count="9" name="subviews">
+          <object class="IBCarbonImageWell" id="570">
+            <string name="bounds">32 19 113 83 </string>
+            <int name="contentResID">29876</int>
+            <int name="contentType">3</int>
+          </object>
+          <object class="IBCarbonStaticText" id="572">
+            <string name="bounds">33 90 49 202 </string>
+            <string name="title">Calculator 1.62</string>
+          </object>
+          <object class="IBCarbonStaticText" id="573">
+            <string name="bounds">57 90 74 295 </string>
+            <string name="title">© 1992-2001 by Martin Gäckler</string>
+          </object>
+          <object class="IBCarbonStaticText" id="574">
+            <string name="bounds">107 90 123 194 </string>
+            <string name="title">Freibadstr. 14</string>
+          </object>
+          <object class="IBCarbonStaticText" id="575">
+            <string name="bounds">131 90 147 221 </string>
+            <string name="title">D-81543 München</string>
+          </object>
+          <object class="IBCarbonStaticText" id="576">
+            <string name="bounds">155 90 171 229 </string>
+            <string name="title">http://www.cresd.de</string>
+          </object>
+          <object class="IBCarbonButton" id="577">
+            <string name="bounds">215 152 235 222 </string>
+            <string name="title">OK</string>
+            <ostype name="command">clos</ostype>
+            <int name="buttonType">1</int>
+          </object>
+          <object class="IBCarbonStaticText" id="578">
+            <string name="bounds">82 90 99 295 </string>
+            <string name="title">© 2001-2005 by CRESD GmbH</string>
+          </object>
+          <object class="IBCarbonStaticText" id="579">
+            <string name="bounds">179 90 195 267 </string>
+            <string name="title">e-mail: martin@gaeckler.de</string>
+          </object>
+        </array>
+      </object>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <int name="carbonWindowClass">2</int>
+      <int name="windowPosition">7</int>
+    </object>
+    <reference idRef="569"/>
+    <reference idRef="570"/>
+    <reference idRef="572"/>
+    <reference idRef="573"/>
+    <reference idRef="574"/>
+    <reference idRef="575"/>
+    <reference idRef="576"/>
+    <reference idRef="577"/>
+    <reference idRef="578"/>
+    <reference idRef="579"/>
+  </array>
+  <array count="311" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="182"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="251"/>
+    <reference idRef="236"/>
+    <reference idRef="255"/>
+    <reference idRef="236"/>
+    <reference idRef="1"/>
+    <reference idRef="255"/>
+    <reference idRef="268"/>
+    <reference idRef="268"/>
+    <reference idRef="261"/>
+    <reference idRef="276"/>
+    <reference idRef="255"/>
+    <reference idRef="276"/>
+    <reference idRef="274"/>
+    <reference idRef="255"/>
+    <reference idRef="278"/>
+    <reference idRef="279"/>
+    <reference idRef="279"/>
+    <reference idRef="279"/>
+    <reference idRef="279"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="311"/>
+    <reference idRef="306"/>
+    <reference idRef="307"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="1"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="307"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="306"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="390"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="372"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="390"/>
+    <reference idRef="366"/>
+    <reference idRef="1"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="366"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="534"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="488"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="1"/>
+    <reference idRef="488"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="488"/>
+    <reference idRef="488"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="480"/>
+    <reference idRef="1"/>
+    <reference idRef="568"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+    <reference idRef="569"/>
+  </array>
+  <dictionary count="7" name="nameTable">
+    <string>About</string>
+    <reference idRef="568"/>
+    <string>ComputerPanel</string>
+    <reference idRef="311"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>LargePanel</string>
+    <reference idRef="534"/>
+    <string>MenuBar</string>
+    <reference idRef="255"/>
+    <string>ScientificPanel</string>
+    <reference idRef="372"/>
+    <string>SmallPanel</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <unsigned_int name="nextObjectID">581</unsigned_int>
+</object>

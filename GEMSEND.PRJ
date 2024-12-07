@@ -1,0 +1,7 @@
+H:\CALCSND.PRG
+=
+tcstart.o
+gemsend.c
+tcfltlib.lib
+tcstdlib.lib
+tcgemlib.lib

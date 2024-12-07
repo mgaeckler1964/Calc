@@ -1,0 +1,15 @@
+calc.prg
+;c:\calc.acc
+=
+tcstart.o
+
+tcfltlib.lib
+tcstdlib.lib
+
+calculat.c (buttons.h)
+calcgem.c (calc.h, buttons.h)
+
+tctoslib.lib
+tcgaklib.lib
+tcgemlib.lib
+
